@@ -81,7 +81,7 @@ public class Robot extends IterativeRobot {
 		// driveController.getRawAxis(4));
 		// driveTrain.arcadeDrive(driveController.getRawAxis(2),
 		// driveController.getRawAxis(3));
-
+											//foward packwards          //left right
 		m_drive.arcadeDrive(driveController.getRawAxis(1), driveController.getRawAxis(4));
 
 		if (operatorController.getAButton()) {
